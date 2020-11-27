@@ -5,15 +5,11 @@
     <form>
       <div class="form-group">
         <label>Name</label>
-        <input class="form-control" type="text" v-model="name" />
+        <input class="form-control" type="text" v-model="person.name" />
       </div>
-      <!--       <div class="form-group">
-        <label>Birthdate</label>
-        <input class="form-control" type="date" v-model="birthdate" />
-      </div> -->
       <div class="form-group">
         <label>Birthdate</label>
-        <input class="form-control" type="number" v-model="birthdate" />
+        <input class="form-control" type="number" v-model="person.birthdate" />
       </div>
       <button v-on:click="addPerson()" type="button" class="btn btn-primary">
         Add Person
@@ -34,16 +30,10 @@ export default {
   },
   methods: {
     addPerson() {
-      //let date = new Date(this.birthdate);
-      //let date_seconds = date.valueOf() / 1000; // convert to seconds since 1970
-
       console.log("adding person: " + JSON.stringify(this.person));
 
       // reset input fields
       this.person = {};
-
-      // set the focus to the "Name" input
-      //this.$refs.name.focus();
     },
   },
 };

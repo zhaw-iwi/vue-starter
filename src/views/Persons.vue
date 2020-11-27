@@ -21,8 +21,6 @@
           </td>
           <td>
             {{ person.birthdate }}
-            <!-- convert person.birthdate from seconds to a date string -->
-            <!-- {{ (new Date(person.birthdate * 1000)).toISOString() }} -->
           </td>
         </tr>
       </tbody>
@@ -32,8 +30,6 @@
 </template>
 
 <script>
-//import axios from "axios";
-
 export default {
   data: function () {
     return {
@@ -51,10 +47,5 @@ export default {
       ],
     };
   },
-/*   mounted: function () {
-    axios.get("http://localhost:8080/infections/persons").then((response) => {
-      this.persons = response.data;
-    });
-  }, */
 };
 </script>

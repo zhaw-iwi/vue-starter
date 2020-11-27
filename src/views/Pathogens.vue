@@ -30,8 +30,6 @@
 </template>
 
 <script>
-//import axios from "axios";
-
 export default {
   data: function () {
     return {
@@ -51,9 +49,6 @@ export default {
         incubation: 5,
       },
     ];
-    /*     axios.get("http://localhost:8080/infections/pathogens").then((response) => {
-      this.pathogens = response.data;
-    }); */
   },
 };
 </script>
