@@ -12,7 +12,7 @@ Install the Vue CLI on your computer. This only needs to be done once.
 
 2. Install the Vue-CLI service addon:
    ```
-   npm install -g @vue/cli @vue/cli-service-global
+   npm install -g @vue/cli-service-global
    ```
 
 ## Project setup
