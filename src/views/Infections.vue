@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1 class="mt-3">List of all Pathogens</h1>
+    <h1 class="mt-3">List of all Infections</h1>
     <table class="table">
       <thead>
         <tr>
